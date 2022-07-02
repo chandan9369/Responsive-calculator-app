@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--
+       ------------------------------
+             Header Container 
+        -----------------------------
+       -->
+      <div class="header-container">
+        <div>calc</div>
+        <div class="calc-theme">
+          <span>THEME</span>
+          <div class="toggle">
+            <div class="indicator"></div>
+          </div>
+        </div>
+      </div>
+
+      <!--
+       ------------------------------
+             Input Container 
+        -----------------------------
+       -->
+      <div class="input-container">
+        <div class="prev-expression"></div>
+        <div class="curr-expression">0</div>
+      </div>
+
+      <!--
+       ------------------------------
+               Main Container 
+        -----------------------------
+       -->
+      <div class="main-container">
+        <div class="calc-grid">
+          <button class="cell">7</button>
+          <button class="cell">8</button>
+          <button class="cell">9</button>
+          <button id="delete">DEL</button>
+          <button class="cell">4</button>
+          <button class="cell">5</button>
+          <button class="cell">6</button>
+          <button class="operator">+</button>
+          <button class="cell">1</button>
+          <button class="cell">2</button>
+          <button class="cell">3</button>
+          <button class="operator">-</button>
+          <button class="cell">.</button>
+          <button class="cell">0</button>
+          <button class="operator">/</button>
+          <button class="operator">x</button>
+        </div>
+        <div class="calc-button-grid">
+          <button class="button-cell" id="reset">Reset</button>
+          <button class="button-cell" id="evaluate">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor </a
+      >. Coded by <a href="#"> Chandan Keshari</a>.
+    </div>
+  </body>
+</html>
